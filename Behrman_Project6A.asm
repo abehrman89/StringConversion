@@ -1,19 +1,6 @@
 TITLE Project #6A     (Behrman_Project6A.asm)
 
-; Author:	Alexandra Behrman
-; Course / Project ID	CS271_400                 Date: 3/19/17
-; Description:	Write a small test program that:
-;	1. gets 10 valid integers from the user and stores the numeric values in an array.
-;	2. The program then displays the integers, their sum, and their average.
-;	3. Requirements:
-;		a. Implement and test your own ReadVal and WriteVal procedures for unsigned integers.
-;		b. Implement macros getString and displayString. 
-;			-The macros may use Irvine’s ReadString to get input from the user, and WriteString to display output.
-;		c. getString should display a prompt, then get the user’s keyboard input into a memory location
-;		d. displayString should the string stored in a specified memory location.
-;		e. readVal should invoke the getString macro to get the user’s string of digits. 
-;			-It should then convert the digit string to numeric, while validating the user’s input.
-;		f. writeVal should convert a numeric value to a string of digits, and invoke the displayString macro to produce the output.
+; get user input, covert to numeric, calculate sum, convert back to string, and display
 
 INCLUDE Irvine32.inc
 
